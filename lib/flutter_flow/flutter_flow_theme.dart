@@ -280,14 +280,14 @@ class ThemeTypography extends Typography {
   TextStyle get labelMedium => GoogleFonts.inter(
         color: theme.secondaryText,
         fontWeight: FontWeight.normal,
-        fontSize: 14.0,
+        fontSize: 16.0,
       );
   String get labelSmallFamily => 'Inter';
   bool get labelSmallIsCustom => false;
   TextStyle get labelSmall => GoogleFonts.inter(
         color: theme.secondaryText,
         fontWeight: FontWeight.normal,
-        fontSize: 12.0,
+        fontSize: 14.0,
       );
   String get bodyLargeFamily => 'Inter';
   bool get bodyLargeIsCustom => false;
