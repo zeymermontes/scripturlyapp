@@ -188,6 +188,21 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: ResetPasswordCopyWidget.routeName,
           path: ResetPasswordCopyWidget.routePath,
           builder: (context, params) => ResetPasswordCopyWidget(),
+        ),
+        FFRoute(
+          name: DeleteAccountWidget.routeName,
+          path: DeleteAccountWidget.routePath,
+          builder: (context, params) => DeleteAccountWidget(),
+        ),
+        FFRoute(
+          name: PolicyWidget.routeName,
+          path: PolicyWidget.routePath,
+          builder: (context, params) => PolicyWidget(),
+        ),
+        FFRoute(
+          name: TermsWidget.routeName,
+          path: TermsWidget.routePath,
+          builder: (context, params) => TermsWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

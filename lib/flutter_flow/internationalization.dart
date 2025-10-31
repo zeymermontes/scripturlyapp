@@ -905,6 +905,31 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Home',
     },
   },
+  // deleteAccount
+  {
+    't8q6n8on': {
+      'en': 'Delete your account',
+      'es': '',
+    },
+    'f0mb0w2e': {
+      'en': 'Home',
+      'es': '',
+    },
+  },
+  // policy
+  {
+    '8yspgv48': {
+      'en': 'Home',
+      'es': 'Perfil',
+    },
+  },
+  // terms
+  {
+    'w8gx5pyq': {
+      'en': 'Home',
+      'es': 'Perfil',
+    },
+  },
   // BooksIndex
   {
     'z94u8n9z': {
