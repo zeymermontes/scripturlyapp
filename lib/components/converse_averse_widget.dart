@@ -467,6 +467,9 @@ class _ConverseAverseWidgetState extends State<ConverseAverseWidget>
                                                                     .bodyMedium
                                                                     .fontStyle,
                                                           ),
+                                                          color: FlutterFlowTheme
+                                                                  .of(context)
+                                                              .baseForeground,
                                                           fontSize: 16.0,
                                                           letterSpacing: 0.0,
                                                           fontWeight:
