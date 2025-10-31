@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>559528678223-q6d0gk4hal45m9m22b3crqira9bcp8ed.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.559528678223-q6d0gk4hal45m9m22b3crqira9bcp8ed</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>559528678223-2dhahjucipd8la03iqlaroouuegv3fk5.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCfcuLvTkRwaW4qLw7vTCPXpmF6C8LtW4M</string>
+	<key>GCM_SENDER_ID</key>
+	<string>559528678223</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.scripturlyapp.scripturly</string>
+	<key>PROJECT_ID</key>
+	<string>scripturly-bible-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>scripturly-bible-app.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:559528678223:ios:6d80e6d347a74716d7eb3a</string>
+</dict>
+</plist>
