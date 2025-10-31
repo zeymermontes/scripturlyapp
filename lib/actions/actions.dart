@@ -84,17 +84,8 @@ Future<dynamic> getPassages(
       )!;
       FFAppState().nextChapter = '';
       FFAppState().prevChapter = BibleApiGroup.chapterContentCall.previousId(
-                    (chapterResult.jsonBody ?? ''),
-                  ) !=
-                  null &&
-              BibleApiGroup.chapterContentCall.previousId(
-                    (chapterResult.jsonBody ?? ''),
-                  ) !=
-                  ''
-          ? BibleApiGroup.chapterContentCall.previousId(
-              (chapterResult.jsonBody ?? ''),
-            )!
-          : null;
+        (chapterResult.jsonBody ?? ''),
+      )!;
       FFAppState().update(() {});
     } else {
       if (BibleApiGroup.chapterContentCall.previousId(

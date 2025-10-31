@@ -27,3 +27,6 @@ export '/login/profile_details/profile_details_widget.dart'
     show ProfileDetailsWidget;
 export '/login/reset_password_copy/reset_password_copy_widget.dart'
     show ResetPasswordCopyWidget;
+export '/delete_account/delete_account_widget.dart' show DeleteAccountWidget;
+export '/policy/policy_widget.dart' show PolicyWidget;
+export '/terms/terms_widget.dart' show TermsWidget;
