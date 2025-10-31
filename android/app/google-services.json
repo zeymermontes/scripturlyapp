@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "559528678223",
+    "project_id": "scripturly-bible-app",
+    "storage_bucket": "scripturly-bible-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559528678223:android:0ec6c466ae627b29d7eb3a",
+        "android_client_info": {
+          "package_name": "com.scripturlyapp.scripturly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559528678223-om7e193eb15hd39fcg2m4b67vt91m97a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scripturlyapp.scripturly",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "559528678223-q4bddr1ugdq7ovm4e1mlaeb3o0p2ovsv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scripturlyapp.scripturly",
+            "certificate_hash": "3f1ffe71746f2c9710d77f8a970ff3330930f5d0"
+          }
+        },
+        {
+          "client_id": "559528678223-q0b00e9f80m8tubambqusbdk4v58v2ht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc0DIaSrncSEqqEeD0EpzkMHebecrm2eU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559528678223-q0b00e9f80m8tubambqusbdk4v58v2ht.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "559528678223-n84nuflbmr2lqe8rcb12bc4bvd3cl77c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.anywallet"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
