@@ -130,13 +130,8 @@ Future<dynamic> getPassages(
           (chapterResult.jsonBody ?? ''),
         )!;
         FFAppState().prevChapter = BibleApiGroup.chapterContentCall.previousId(
-                  (chapterResult.jsonBody ?? ''),
-                ) ==
-                'null'
-            ? ''
-            : BibleApiGroup.chapterContentCall.previousId(
-                (chapterResult.jsonBody ?? ''),
-              )!;
+          (chapterResult.jsonBody ?? ''),
+        )!;
         FFAppState().update(() {});
       }
     }
