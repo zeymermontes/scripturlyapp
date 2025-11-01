@@ -120,7 +120,7 @@ class FFAppState extends ChangeNotifier {
     BiblesStruct.fromSerializableMap(jsonDecode(
         '{\"bibleID\":\"d6e14a625393b4da-01\",\"bibleAcronim\":\"NLT\",\"language\":\"eng\",\"bibleName\":\"New Living Translation\",\"description\":\"Clear, modern English. Great for devotional reading.\"}')),
     BiblesStruct.fromSerializableMap(jsonDecode(
-        '{\"bibleID\":\"592420522e16049f-01\",\"bibleAcronim\":\"RVR09\",\"language\":\"spa\",\"bibleName\":\"Reina Valera 1909\",\"description\":\"A classic and highly regarded Spanish-language Bible translation known for its direct and literal translation,\"}'))
+        '{\"bibleID\":\"592420522e16049f-01\",\"bibleAcronim\":\"RVR09\",\"language\":\"spa\",\"bibleName\":\"Reina Valera 1909\",\"description\":\"A classic and highly regarded Spanish-language Bible translation known for its direct and literal translation.\"}'))
   ];
   List<BiblesStruct> get biblesAvailable => _biblesAvailable;
   set biblesAvailable(List<BiblesStruct> value) {
