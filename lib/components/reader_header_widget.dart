@@ -1,5 +1,6 @@
 import '/components/bible_drop_down_widget.dart';
 import '/components/reader_settings_widget.dart';
+import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'package:aligned_dialog/aligned_dialog.dart';
@@ -163,12 +164,15 @@ class _ReaderHeaderWidgetState extends State<ReaderHeaderWidget> {
                 .addToStart(SizedBox(width: 12.0))
                 .addToEnd(SizedBox(width: 12.0)),
           ),
-          InkWell(
-            splashColor: Colors.transparent,
-            focusColor: Colors.transparent,
-            hoverColor: Colors.transparent,
-            highlightColor: Colors.transparent,
-            onTap: () async {
+          FlutterFlowIconButton(
+            borderRadius: 8.0,
+            buttonSize: 40.0,
+            fillColor: FlutterFlowTheme.of(context).primaryBackground,
+            icon: Icon(
+              FFIcons.ksettings,
+              size: 20.0,
+            ),
+            onPressed: () async {
               await showModalBottomSheet(
                 isScrollControlled: true,
                 backgroundColor: Colors.transparent,
@@ -182,15 +186,6 @@ class _ReaderHeaderWidgetState extends State<ReaderHeaderWidget> {
                 },
               ).then((value) => safeSetState(() {}));
             },
-            child: ClipRRect(
-              borderRadius: BorderRadius.circular(8.0),
-              child: Image.asset(
-                'assets/images/settings.png',
-                width: 40.0,
-                height: 40.0,
-                fit: BoxFit.cover,
-              ),
-            ),
           ),
         ],
       ),
